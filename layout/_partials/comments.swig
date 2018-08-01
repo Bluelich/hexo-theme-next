@@ -35,6 +35,11 @@
       <div id="SOHUCS"></div>
     </div>
 
+   {% elseif theme.gitalk.enable %}
+    <div class="comments" id="comments">
+      <div id="gitalk-container"></div>
+    </div>
+
   {% elseif theme.gitment.enable %}
     <div class="comments" id="comments">
       {% if theme.gitment.lazy %}
